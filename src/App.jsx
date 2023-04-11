@@ -96,6 +96,7 @@ function App() {
     <div className={modal ? 'fijar' : ''}>
       <Header
         gastos={gastos}
+        setGastos={setGastos}
         presupuesto={presupuesto}
         setPresupuesto={setPresupuesto}
         validPresupuesto={validPresupuesto}
